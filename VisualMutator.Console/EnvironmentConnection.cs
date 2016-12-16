@@ -1,14 +1,13 @@
-﻿namespace VisualMutator.Console
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-    using Infrastructure;
-    using Model;
-    using Model.CoverageFinder;
-    using UsefulTools.Paths;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using UsefulTools.Paths;
+using VisualMutator.Infrastructure;
+using VisualMutator.Model.CoverageFinder;
 
+namespace VisualMutator.Console
+{
     public class EnvironmentConnection : IHostEnviromentConnection
     {
         private readonly CommandLineParser _parser;

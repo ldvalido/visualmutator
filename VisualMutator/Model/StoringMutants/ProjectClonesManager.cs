@@ -1,19 +1,17 @@
-﻿namespace VisualMutator.Model.StoringMutants
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-    using System.Reflection;
-    using System.Security.Cryptography;
-    using System.Threading.Tasks;
-    using Infrastructure;
-    using log4net;
-    using NUnit.Core;
-    using UsefulTools.ExtensionMethods;
-    using UsefulTools.FileSystem;
-    using UsefulTools.Paths;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
+using log4net;
+using UsefulTools.ExtensionMethods;
+using UsefulTools.FileSystem;
+using UsefulTools.Paths;
+using VisualMutator.Infrastructure;
 
+namespace VisualMutator.Model.StoringMutants
+{
     public interface IProjectClonesManager : IDisposable
     {
         ProjectFilesClone CreateClone(string name);

@@ -20,8 +20,6 @@
     using Mutations;
     using Mutations.MutantsTree;
     using Ninject;
-    using UsefulTools.Core;
-    using Wintellect.PowerCollections;
 
     #endregion
 

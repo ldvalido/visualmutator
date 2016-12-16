@@ -1,27 +1,21 @@
-﻿namespace VisualMutator.Model
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-    using System.Reflection;
-    using System.Threading.Tasks;
-    using System.Windows.Documents;
-    using Controllers;
-    using CoverageFinder;
-    using Infrastructure;
-    using log4net;
-    using Microsoft.Cci;
-    using Mutations;
-    using Mutations.Types;
-    using NUnit.Util;
-    using StoringMutants;
-    using Tests;
-    using Tests.TestsTree;
-    using UsefulTools.DependencyInjection;
-    using UsefulTools.ExtensionMethods;
-    using UsefulTools.Paths;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
+using log4net;
+using UsefulTools.DependencyInjection;
+using UsefulTools.ExtensionMethods;
+using VisualMutator.Controllers;
+using VisualMutator.Infrastructure;
+using VisualMutator.Model.CoverageFinder;
+using VisualMutator.Model.Mutations;
+using VisualMutator.Model.StoringMutants;
+using VisualMutator.Model.Tests;
+using VisualMutator.Model.Tests.TestsTree;
 
+namespace VisualMutator.Model
+{
     public class SessionConfiguration
     {
 

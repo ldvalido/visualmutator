@@ -2,21 +2,11 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.IO;
     using System.Linq;
     using System.Reflection;
-    using System.Threading.Tasks;
     using System.Xml;
     using System.Xml.Linq;
-    using Infrastructure;
     using log4net;
-    using NUnit.Core;
-    using RunProcessAsTask;
-    using TestsTree;
-    using UsefulTools.Core;
-    using UsefulTools.ExtensionMethods;
-    using UsefulTools.Paths;
 
     public interface INUnitExternal
     {

@@ -6,7 +6,6 @@
     using System.Linq;
     using System.Reflection;
     using log4net;
-    using NUnit.Framework;
     using UsefulTools.FileSystem;
     using UsefulTools.Paths;
 

@@ -1,4 +1,6 @@
-﻿namespace PiotrTrzpil.VisualMutator_VSPackage.Model
+﻿using System.IO.Packaging;
+
+namespace PiotrTrzpil.VisualMutator_VSPackage.Model
 {
     #region
 

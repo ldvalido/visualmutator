@@ -1,4 +1,6 @@
-﻿namespace PiotrTrzpil.VisualMutator_VSPackage.Infrastructure
+﻿using System.IO.Packaging;
+
+namespace PiotrTrzpil.VisualMutator_VSPackage.Infrastructure
 {
     #region
 

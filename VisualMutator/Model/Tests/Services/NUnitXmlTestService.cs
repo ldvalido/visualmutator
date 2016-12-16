@@ -1,4 +1,6 @@
-﻿namespace VisualMutator.Model.Tests.Services
+﻿using NUnit.Framework.Interfaces;
+
+namespace VisualMutator.Model.Tests.Services
 {
     #region
 
@@ -90,7 +92,7 @@
 
             try
             {
-                ITest testRoot = _nUnitWrapper.LoadTests(assemblyPath.InList());
+                var testRoot = _nUnitWrapper.LoadTests(assemblyPath.InList());
                 int testCount = testRoot.TestsEx().SelectMany(n => n.TestsEx()).Count();
                 if (testCount == 0)
                 {
